@@ -2,7 +2,7 @@ package com.practice.sorting;
 
 import java.util.Arrays;
 
-public class NobelIntegers {
+public class NobleIntegers {
     public static void main(String[] args) {
         //int[] arr = {1, -5, 3, 5, -10, 4}; // with distinct elements   //output : 3
         int[] arr = {-10, 1, 1, 1, 4, 4, 4, 7, 10}; // with duplicate/repeated elements   //output : 7
