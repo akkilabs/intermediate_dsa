@@ -1,0 +1,34 @@
+PrefixSum - Whenever we need to create/do things in a range and there is no update to calculate/get
+cumulative data from starting [ cricket match scores ] then we can think about "PrefixSum Array"
+
+This approach generally we can use to find range sum queries problems.
+To find the updated score after every over of cricket team.
+
+Overs: 1  2  3  4  5  6  7  8  9  10
+Score: 2  8  14 29 31 49 65 79 88 97
+
+Keynotes:
+    cumulative data from starting = PrefixSum [ we are adding previous sum to the current one ]
+
+    pfsum [ i ] = sum of all elements from index [ 0, i]
+
+    sum [ 0, i ] = pfsum [ i ]
+
+    sum [ i, j ] = pfsum [ j ] - pfsum [ i-1 ]
+
+    // calculate PrefixSum for any given range - using generic code // TC : O(1)
+
+    sum [i,j]
+    if(i==0)
+    ans = pfsum [j]
+    else
+    ans = pfsum [j] - pfsum [i-1]
+
+
+    // construct pf[N] [ Constructing prefix array of N elements ] // TC : O(N)
+
+    pf [ N ]
+    pf [ 0 ] = A [ 0 ];
+    for ( int i = 1; i < N; i ++ ) {
+    pf [ i ] = pf [ i - 1 ] + A [ i ];
+    }
