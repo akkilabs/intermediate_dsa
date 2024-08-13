@@ -1,3 +1,9 @@
+// Given an array of size N elements, count the no. of elements which at least 1 element greater-than themselves
+
+//Only the maximum element will not have a greater element
+//cMax -> count the max elements
+//N - cMax ->is the result, where N is the total nu of elements of an Array.
+
 package com.practice.arrays;
 
 public class MaxElementCount {
