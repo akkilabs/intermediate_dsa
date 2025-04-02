@@ -6,8 +6,10 @@ public class InsertNodeStartLL {
         int data;
         Node next;
 
-        Node(int val) {
-            data = val;
+        Node(int data) {
+
+            this.data = data;
+            this.next = null;
         }
 
         public static void main(String[] args) {
@@ -31,7 +33,7 @@ public class InsertNodeStartLL {
             }
         }
 
-        public static Node insertStart(Node head, int val) {
+        public static Node insertStart(Node head, int data) {
             Node n = new Node(50); // creating new Node
             n.next = head;        // assigning current head addr to new Node next ptr
             head = n;            // making new Node as head of LL ( head node stores data and address of next Node )
