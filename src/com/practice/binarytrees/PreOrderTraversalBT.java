@@ -3,21 +3,21 @@ package com.practice.binarytrees;
 public class PreOrderTraversalBT {
     TreeNode root;
 
-    public static class TreeNode{
+    public static class TreeNode {
         int data;
         TreeNode left;
         TreeNode right;
 
         //constructor to create a new TreeNode
-        TreeNode(int data){
+        TreeNode(int data) {
             this.data = data;
             this.left = null;
             this.right = null;
         }
     }
 
-    public void preOrderTraversal(TreeNode node){
-        if(node == null){
+    public void preOrderTraversal(TreeNode node) {
+        if (node == null) {
             return;
         }
 
