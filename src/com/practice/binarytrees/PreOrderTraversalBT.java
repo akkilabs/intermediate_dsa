@@ -1,5 +1,11 @@
 package com.practice.binarytrees;
 
+/**
+ * This class meant for InOrderTraversal of a BT
+ * Author:Akki
+ * Version:1.0
+ * InOrderTraversal follows this order LST | root | RST
+ */
 public class PreOrderTraversalBT {
     TreeNode root;
 
