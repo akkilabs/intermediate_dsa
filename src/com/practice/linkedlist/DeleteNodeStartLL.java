@@ -1,8 +1,14 @@
 package com.practice.linkedlist;
 
+/**
+ * This class meant for Deleting Node At Start of LL
+ * Author:Akki
+ * Version:1.0
+ */
 public class DeleteNodeStartLL {
     Node head;
 
+    //Node Structure of LL
     public static class Node {
         int data;
         Node next;
