@@ -1,10 +1,8 @@
-package com.practice.arrays;
-
-import java.util.Arrays;
+package com.practice.arrays.basics;
 
 public class ReverseArray {
     public static void main(String[] args) {
-        int[] arr = {2, 3, 5, 7, 9, 11};
+        int[] arr = {2, 3, 5, 7, 9, 11,13};  //This logic will work for both even/odd elements too.
         int n = arr.length;
         reverseArray(arr, n);
     }
