@@ -8,7 +8,7 @@
  * implemented this approach in two for loops.
  */
 
-package com.practice.arrays;
+package com.practice.arrays.intermediate;
 
 public class CountGreaterElements {
 
