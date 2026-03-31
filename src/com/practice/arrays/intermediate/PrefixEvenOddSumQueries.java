@@ -1,4 +1,4 @@
-package com.practice.arrays;
+package com.practice.arrays.intermediate;
 
 import java.util.Arrays;
 import java.util.Scanner;
