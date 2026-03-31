@@ -1,7 +1,7 @@
 // Given N array elements, construct a pfEven[] of size N
 // pfEven[i] = sum of all even indices from [ 0, i ]
 
-package com.practice.arrays;
+package com.practice.arrays.intermediate;
 
 import java.util.Arrays;
 
@@ -22,7 +22,6 @@ public class PrefixEvenIndicesSum {
         for (int i = 1; i < n; i++) {
             if (i % 2 == 0)
                 prefixEven[i] = prefixEven[i - 1] + arr[i];//if it is even index add previous index value and current index value
-
             else
                 prefixEven[i] = prefixEven[i - 1];//if it is odd index just copy previous index value
         }
