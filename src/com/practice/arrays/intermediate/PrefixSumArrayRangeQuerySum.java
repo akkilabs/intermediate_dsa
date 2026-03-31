@@ -3,7 +3,7 @@
 // For each query calculate sum of all elements in given range [ L -> R, where L <= R ]
 //Brute Force Approach TC : O(Q) * O(N) SC: O(1)
 
-package com.practice.arrays;
+package com.practice.arrays.intermediate;
 
 import java.util.Scanner;
 
@@ -11,13 +11,10 @@ public class PrefixSumArrayRangeQuerySum {
     public static void main(String[] args) {
         int[] arr = {-3, 6, 2, 4, 5, 2, 8,};
         int n = arr.length;
-        //int[] prefSum = new int[n];
-
         //invoking function
         int[] prefixSum = fillPrefixSum(arr, n);
 
         //Optimised Approach using PrefixSumArray technique Overall TC : O(Q+N) SC: O(N)
-
         System.out.print("Enter num of queries:");
         Scanner sc = new Scanner(System.in);
         int q = sc.nextInt();
