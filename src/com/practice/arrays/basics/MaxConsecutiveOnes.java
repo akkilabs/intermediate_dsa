@@ -1,4 +1,4 @@
-package com.practice.arrays;
+package com.practice.arrays.basics;
 
 public class MaxConsecutiveOnes {
     public static int findMaxConsecutiveOnes(int[] nums) {
