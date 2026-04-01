@@ -1,7 +1,4 @@
-package com.practice.arrays;
-
-import java.util.HashSet;
-import java.util.Set;
+package com.practice.arrays.intermediate;
 
 public class FindZeroSumSubArray {
     //Brute Force Approach
