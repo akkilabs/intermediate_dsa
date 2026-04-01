@@ -2,7 +2,7 @@
 // If sum of all elements before ith index equals to - sum [ 0, i-1 ]
 // sum of all elements after ith index - sum [ i+1, N-1 ]
 
-package com.practice.arrays;
+package com.practice.arrays.advanced;
 
 public class EquilibriumIndex {
     public static void main(String[] args) {
