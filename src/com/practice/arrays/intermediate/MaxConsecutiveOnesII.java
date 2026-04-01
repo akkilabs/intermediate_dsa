@@ -1,4 +1,4 @@
-package com.practice.arrays;
+package com.practice.arrays.intermediate;
 
 public class MaxConsecutiveOnesII {
     /**
